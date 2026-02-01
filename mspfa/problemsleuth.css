@@ -507,3 +507,44 @@ header .umcontainer iframe {
   margin: 0.5em auto;
   width: max-content;
 }
+
+/* Strife */
+@font-face{
+    font-family: 'strife';
+    src: url('https://file.garden/Zd-XnHbOwEeXrlKq/strife.ttf');
+}
+
+/* Dyslexic */
+@font-face{
+    font-family: 'opendys';
+    src: url('https://file.garden/Zd-XnHbOwEeXrlKq/OpenDyslexic-Regular.otf');
+}
+
+
+
+.normal-font {
+    #command {
+        font-family: 'strife';
+        font-weight: normal;
+    }
+
+    .lang, #content {
+        font-family: 'strife';
+        font-size:20px;
+        font-weight: normal;
+    }
+}
+
+
+.alt-font {
+    #command {
+        font-family: 'opendys';
+        font-weight: normal;
+    }
+
+    .lang, #content {
+        font-family: 'opendys';
+        font-size:14px;
+        font-weight: normal;
+    }
+}
