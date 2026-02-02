@@ -12,6 +12,8 @@
 body {
   margin: 0;
   font-family: courier new,Courier,monospace;
+	font-family: 'strife';
+	font-family: 'opendys'
   font-size: 12px;
   background-color: #ddd;
   color: #000;
