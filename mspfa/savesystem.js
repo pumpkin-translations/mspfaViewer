@@ -42,3 +42,13 @@ function del() {
   const dataname=document.title+" Save Data"
   const loadpage=localStorage.getItem(dataname);
   const delpage=localStorage.removeItem(dataname);
+
+  if(loadpage!==null) {
+    console.log("Deleting data");
+    window.alert("Save deleted");
+    delpage;
+  } else {
+    console.log("No data");
+    window.alert("There is no save data.");
+  }
+}
