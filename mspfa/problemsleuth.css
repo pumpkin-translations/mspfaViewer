@@ -1,13 +1,13 @@
 /* Strife */
 @font-face{
     font-family: 'strife';
-    src: url('https://file.garden/Zd-XnHbOwEeXrlKq/strife.ttf');
+    src: url('https://github.com/MrPseudos/ru-mspa-retranslated/blob/1bacfd9b4f80e63fe263f5238aa08aad5f6def36/ps_ru/fonts/strife.otf');
 }
 
 /* Dyslexic */
 @font-face{
     font-family: 'opendys';
-    src: url('https://file.garden/Zd-XnHbOwEeXrlKq/OpenDyslexic-Regular.otf');
+    src: url('https://github.com/MrPseudos/ru-mspa-retranslated/blob/1bacfd9b4f80e63fe263f5238aa08aad5f6def36/ps_ru/fonts/OpenDyslexic-Regular.otf');
 }
 body {
   margin: 0;
@@ -43,9 +43,9 @@ nav {
   
   height: 116.4px;
   background-image: 
-    url(https://file.garden/Zd-XnHbOwEeXrlKq/mspa_menu.gif),
-    url(https://file.garden/X1htvgJ0DEp_tp-Z/MSPFA%20other/PS%20Theme/logo.gif),
-    url(https://file.garden/X1htvgJ0DEp_tp-Z/MSPFA%20other/PS%20Theme/meimg.gif);
+    url(./mspa_menu.gif),
+    url(./logo.gif),
+    url(./meimg.gif);
   
   background-repeat: no-repeat;
   background-position: left, center, right;
@@ -163,8 +163,8 @@ nav a[href*="?p=log"]::before {
   padding-bottom: 32px;
   
   background-image: 
-    url(https://file.garden/X1htvgJ0DEp_tp-Z/MSPFA%20other/PS%20Theme/pointer.gif),
-    url(https://file.garden/X1htvgJ0DEp_tp-Z/MSPFA%20other/PS%20Theme/blinkingcursor.gif);
+    url(./pointer.gif),
+    url(./blinkingcursor.gif);
   background-repeat: no-repeat;
   background-position: 25px 100%, 47px 100%;
 }
