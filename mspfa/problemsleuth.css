@@ -11,7 +11,7 @@
 }
 body {
   margin: 0;
-  font-family: courier new,Courier,monospace;
+  font-family: "courier new",Courier,monospace;
 	font-family: 'strife';
 	font-family: 'opendys';
   font-size: 12px;
@@ -110,7 +110,7 @@ nav a[href*="?p=log"]::before {
 	display: table;
 	width: 600px;
 	max-width: 940px;
-	margin: 7px auto 23px;
+	margin: 0px auto 23px;
 	padding: 0 25px;
 	word-wrap: break-word;
 	word-break: break-word;
