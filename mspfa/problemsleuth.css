@@ -1,4 +1,14 @@
+/* Strife */
+@font-face{
+    font-family: 'strife';
+    src: url('https://file.garden/Zd-XnHbOwEeXrlKq/strife.ttf');
+}
 
+/* Dyslexic */
+@font-face{
+    font-family: 'opendys';
+    src: url('https://file.garden/Zd-XnHbOwEeXrlKq/OpenDyslexic-Regular.otf');
+}
 body {
   margin: 0;
   font-family: courier new,Courier,monospace;
@@ -521,20 +531,6 @@ header .umcontainer iframe {
   margin: 0.5em auto;
   width: max-content;
 }
-
-/* Strife */
-@font-face{
-    font-family: 'strife';
-    src: url('https://file.garden/Zd-XnHbOwEeXrlKq/strife.ttf');
-}
-
-/* Dyslexic */
-@font-face{
-    font-family: 'opendys';
-    src: url('https://file.garden/Zd-XnHbOwEeXrlKq/OpenDyslexic-Regular.otf');
-}
-
-
 
 .normal-font {
     #command {
