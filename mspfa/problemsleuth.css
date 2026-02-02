@@ -1,13 +1,13 @@
 /* Strife */
 @font-face{
     font-family: 'strife';
-    src: url('https://github.com/MrPseudos/ru-mspa-retranslated/blob/1bacfd9b4f80e63fe263f5238aa08aad5f6def36/ps_ru/fonts/strife.otf');
+    src: url('https://github.com/MrPseudos/ru-mspa-retranslated/blob/main/ps_ru/fonts/strife.otf?raw=true');
 }
 
 /* Dyslexic */
 @font-face{
     font-family: 'opendys';
-    src: url('https://github.com/MrPseudos/ru-mspa-retranslated/blob/1bacfd9b4f80e63fe263f5238aa08aad5f6def36/ps_ru/fonts/OpenDyslexic-Regular.otf');
+    src: url('https://github.com/MrPseudos/ru-mspa-retranslated/blob/main/ps_ru/fonts/OpenDyslexic-Regular.otf?raw=true');
 }
 body {
   margin: 0;
