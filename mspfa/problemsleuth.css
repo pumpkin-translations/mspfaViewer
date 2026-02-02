@@ -290,7 +290,7 @@ nav a[href*="?p=log"]::before {
 /*   display: none !important; */
 }
 #storyicon {
-  display: none;
+  display: show;
 /*   position: absolute;
   z-index: 10;
   left: 16px;
