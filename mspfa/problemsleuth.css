@@ -89,7 +89,49 @@ nav a[href*="?p=log/"]::before {
 }
 
 /* Main Content */
+.mspfa #container {
+	font-weight: 700;
+	font-size: 14px;
+}
 
+.mspfa #slide {
+	display: table;
+	width: 600px;
+	max-width: 940px;
+	margin: 7px auto 23px;
+	padding: 0 25px;
+	word-wrap: break-word;
+	word-break: break-word;
+	background-color: #eee;
+}
+
+.mspfa #command {
+	text-align: center;
+	font-size: xx-large;
+	padding: 14px 0;
+}
+
+.mspfa #content {
+	text-align: center;
+	margin-bottom: 14px;
+}
+
+.mspfa #content > span > br:first-child {
+	display: none;
+}
+
+.mspfa #content img {
+	max-width: 940px;
+}
+
+.mspfa #content img.major, .mspfa #content video.major, .mspfa #content iframe.major, .mspfa #content canvas.major, .mspfa #content object.major, .mspfa #content ruffle-object.major {
+	margin: 0 -25px;
+}
+
+.mspfa #slide .spoiler img, .mspfa #commentbox > .spoiler .spoiler img {
+	max-width: 
+    100%;
+}
 #slide {
   padding: 0;
   margin-top: 21px;
