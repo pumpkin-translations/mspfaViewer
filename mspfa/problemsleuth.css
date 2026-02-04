@@ -281,13 +281,13 @@ nav a[href="/more/"]::before {
   margin-bottom: 0;
   padding: 4px;
   padding-bottom: 0;
-  background-color: #dddddd;
+  background-color: #eee;
 }
 #latestpages > br {
   display: none;
 }
 #latestpages > div {
-  background-color: #dddddd;
+  background-color: #eee;
   text-align: left !important;
   margin: 4px;
   margin-top: 0px; 
