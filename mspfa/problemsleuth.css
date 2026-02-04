@@ -69,7 +69,7 @@ nav a::before {
 }
 
 /* home */
-nav a[href="https://homestuck.com"]::before {
+nav a[href*="https://homestuck.com"]::before {
   content: "";
   top: 10px;
   bottom: 10px;
@@ -101,7 +101,7 @@ nav a[href*="?p=log"]::before {
 }
 
 /* my */
-nav a[href="https://pumpkintranslations.attiplayz.dev"]::before {
+nav a[href*="https://pumpkintranslations.attiplayz.dev"]::before {
   content: "";
   right: 10px;
   width: 85px;
