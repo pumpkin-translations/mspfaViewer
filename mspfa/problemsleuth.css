@@ -528,14 +528,14 @@ header .umcontainer iframe {
 }
 
 #details::before {
-  content: url(https://file.garden/X1htvgJ0DEp_tp-Z/MSPFA%20other/PS%20Theme/copyright.gif);
+  content: url(./copyright.gif);
   display: block;
   margin: 0.5em auto;
   width: max-content;
 }
 
 .normal-font {
-    #command {
+    .lang, #command {
         font-family: 'strife';
         font-weight: normal;
     }
@@ -549,7 +549,7 @@ header .umcontainer iframe {
 
 
 .alt-font {
-    #command {
+    .lang, #command {
         font-family: 'opendys';
         font-weight: normal;
     }
