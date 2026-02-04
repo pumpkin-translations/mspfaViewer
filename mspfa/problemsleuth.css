@@ -69,7 +69,7 @@ nav a::before {
 }
 
 /* home */
-nav a[href="/"]::before {
+nav a[href="homestuck.com"]::before {
   content: "";
   top: 10px;
   bottom: 10px;
@@ -98,6 +98,44 @@ nav a[href*="?p=log"]::before {
   height: 60px;
   rotate: -10deg;
   border-radius: 0 10px;
+}
+
+/* my */
+nav a[href="https://pumpkintranslations.attiplayz.dev"]::before {
+  content: "";
+  right: 10px;
+  width: 85px;
+  top: 20px;
+  height: 80px;
+border-radius: 50%;
+}
+
+/* stories */
+nav a[href="/map"]::before {
+  content: "";
+  left: 12px;
+  top: 20px;
+  width: 45px;
+  height: 33px;
+  rotate: -26deg;
+}
+
+/* more */
+nav a[href="/more/"]::before {
+  content: "";
+  bottom: 20px;
+  left: 160px;
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#notification {
+  position: absolute;
+  right: 12px;
+  top: 80px;
+  font-size: 10px;
+  color: white !important;
 }
 
 /* Main Content */
@@ -228,7 +266,7 @@ nav a[href*="?p=log"]::before {
   border-radius: 8px 10px 50% 50%;
 }
 
-/* latestpages 
+/* latestpages */
 #latestpages {
   max-width: unset !important;
   width: 3015px !important;
@@ -263,7 +301,7 @@ nav a[href*="?p=log"]::before {
   font-size: 10px !important;
   text-transform: lowercase;
 }
-*/
+
 
 .mspfalogo {
   display: none;
