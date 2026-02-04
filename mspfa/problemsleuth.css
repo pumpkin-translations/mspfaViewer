@@ -295,7 +295,7 @@ nav a[href="/more/"]::before {
   padding-top: 0px; 
 }
 #latestpages > div::before {
-  content: "Or ";
+  content: "Или ";
 }
 #latestpages > div a {
   font-size: 10px !important;
